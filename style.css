@@ -120,6 +120,7 @@ img {
 
 .links {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   gap: 10px;
@@ -212,8 +213,8 @@ button:hover {
   }
 
   .card {
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 55%;
+    max-height: 85dvh;
     margin: 15px;
   }
 
@@ -258,7 +259,7 @@ button:hover {
 
   .card {
     max-width: 70%;
-    max-height: 90%;
+    max-height: 85dvh;
   }
 
   .banner {
@@ -266,7 +267,7 @@ button:hover {
   }
 
   .profile-card {
-    margin-top: -30px;
+    margin-top: -40px;
   }
 
   .avatar {
@@ -276,20 +277,20 @@ button:hover {
   }
 
   .name {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .description {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   button {
-    padding: 7px 14px;
-    font-size: 0.8em;
-    max-width: 70%; /* Further reduced for smaller screens */
+    padding: 4px 6px;
+    font-size: 0.7em;
+    max-width: 55%; /* Further reduced for smaller screens */
   }
 
   .icon {
-    width: 16px;
+    width: 14px;
   }
 }
